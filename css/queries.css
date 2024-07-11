@@ -1,0 +1,40 @@
+@media (max-width: 24em) {
+  /* 24em is approximately 375px */
+  .info-card--section {
+    height: auto; /* Allow the section to fit content height */
+    width: auto;
+    /* padding: 4rem 0 4rem 0; */
+  }
+
+  .card {
+    width: 70%; /* Make the card width responsive */
+    height: auto;
+    padding: 2rem;
+    margin: 8rem 0 8rem 0;
+  }
+
+  .person-name {
+    font-size: 1.5rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .person-location {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .profession-text {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .links {
+    gap: 1rem;
+  }
+
+  .btn:link,
+  .btn:visited {
+    font-size: 1rem;
+    padding: 0.8rem 0.8rem;
+  }
+}

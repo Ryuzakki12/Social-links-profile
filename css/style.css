@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.info-card--section {
+  /* max-width: 144rem; */
+  width: auto;
+  background-color: hsl(0, 0%, 8%);
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  max-width: auto;
+  margin: 0 auto;
+  background-color: hsl(0, 0%, 12%);
+  /* display: inline-block; */
+  padding: 4rem 4rem;
+  border-radius: 12px;
+}
+.person-name {
+  color: hsl(0, 0%, 100%);
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.person-location {
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin-bottom: 2.6rem;
+}
+
+.profession-text {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 2.4rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.btn:link,
+.btn:visited {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  background-color: hsl(0, 0%, 20%);
+  padding: 1.2rem 9.6rem;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
+
+.img {
+  width: 30%;
+  border-radius: 100%;
+  height: auto;
+  margin-bottom: 2.2rem;
+}
+
+.img-text {
+  text-align: center;
+}
+
+/* .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+} */
